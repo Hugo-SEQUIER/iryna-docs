@@ -1,26 +1,27 @@
 ---
 sidebar_position: 2
-title: "Vision & Objectives"
+title: "Vision"
 hidden: false
-lastUpdatedAt: "2024-10-04"
+lastUpdatedAt: "2025-02-05"
 ---
 
-# Vision & Objectives
 
-At Trophē, our vision is to seamlessly integrate advanced artificial intelligence with blockchain technology to create a universally accessible platform. We strive to democratize AI by providing an intuitive and flexible interface that caters to users of all technical backgrounds. By harnessing the power of blockchain, we ensure transparency, security, and decentralization, empowering individuals and businesses to leverage AI without barriers.
+# Vision
 
-Our commitment is to build a robust cloud infrastructure that serves as the backbone for innovative AI applications. We envision a future where cutting-edge AI tools are readily available to everyone, fostering an inclusive and equitable technological landscape. Through this integration, Trophē aims to drive a new era of innovation, where AI advancements are accessible, reliable, and beneficial for society as a whole.
+The Iryna Framework is designed to revolutionize the way intelligent agents are built and managed by emphasizing decentralization, traceability, and modularity. Our vision is to create a robust and scalable framework that empowers developers to collaborate seamlessly while ensuring the independence and reliability of each agent. The core pillars of our vision include:
 
-## Objectives
+## Decentralization and Traceability with Irys
 
-- **Blockchain Integration:** Develop a comprehensive blockchain interface layer that abstracts complex blockchain functionalities, making them easily accessible to developers and end-users alike.
+We aim to move away from traditional centralized API and HTTP requests by leveraging the decentralized capabilities of Irys. This approach ensures that all interactions and data transactions are transparently recorded on the Irys network, enhancing security and accountability. By implementing traceability with Irys, we provide a tamper-proof ledger that tracks every action and event within the framework, fostering trust and integrity in agent operations.
 
-- **Accessible AI Cloud Infrastructure:** Build and maintain a scalable cloud infrastructure tailored for AI applications, ensuring high performance, reliability, and ease of use.
+## Enhanced Agent Independence through Comprehensive Workflow Tracking
 
-- **Democratization of AI and Blockchain Tools:** Provide a suite of tools and resources that simplify the adoption of AI and blockchain technologies, lowering the entry barriers for individuals and businesses.
+Understanding the importance of autonomy, the Iryna Framework integrates Irys to meticulously follow each step of an agent's workflow and initialization process. This detailed tracking not only ensures that every action is accountable but also empowers agents to operate independently without relying on centralized control systems. By documenting each phase on Irys, agents can maintain consistent performance and recover gracefully from any disruptions, thereby enhancing their reliability and effectiveness.
 
-- **Security and Transparency:** Implement robust security measures and transparent protocols to protect user data and foster trust within the platform.
+## Enabling Decentralized Swarms with Irys
 
-- **Community Empowerment:** Cultivate a vibrant community of developers, entrepreneurs, and enthusiasts who contribute to and benefit from the Trophē ecosystem, driving continuous innovation and improvement.
+The framework is built to support the creation of decentralized swarms of agents, thanks to the underlying infrastructure built on Irys. This capability allows multiple agents to collaborate and interact within a distributed network, eliminating single points of failure and promoting resilience. Decentralized swarms enable scalable solutions where agents can dynamically coordinate, share resources, and adapt to varying demands without centralized oversight, making the system more robust and adaptable to complex tasks. This allows agents to resolve complex tasks efficiently and effectively.
 
-- **Sustainable Innovation:** Focus on creating sustainable technological solutions that not only advance AI and blockchain capabilities but also consider the social and economic impacts on the broader society.
+## Modular and Developer-Friendly Structure for Collaborative Open-Source Development
+
+To foster a thriving developer community, the Iryna Framework is architected with modularity and simplicity at its core. By maintaining a clean and straightforward structure, we make it easier for developers to contribute, extend functionalities, and integrate new plugins. This openness not only accelerates innovation but also ensures that the framework can evolve rapidly to meet diverse needs. Our commitment to an open-source model encourages collaboration, knowledge sharing, and collective problem-solving, driving the continuous improvement and adoption of the Iryna Framework.

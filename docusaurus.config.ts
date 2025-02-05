@@ -2,15 +2,17 @@ import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
-  title: 'Docs Trophē',
-  tagline: 'Documentation for Trophē',
+  title: 'Docs Iryna',
+  tagline: 'Documentation for Iryna',
   favicon: 'img/favicon.ico',
 
+
   // Set the production url of your site here
-  url: 'https://docs.trophe.net',
+  url: 'https://docs.iryna.ai',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
+
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -47,12 +49,13 @@ const config: Config = {
     image: 'img/logo.png',
     navbar: {
       logo: {
-        alt: 'Trophē Logo',
+        alt: 'Iryna Logo',
         src: 'img/logo.png',
         srcDark: 'img/logo_dark.png', // Added logo for dark mode
-        href: 'https://trophe.net',
+        href: 'https://iryna.ai',
       },
     },
+
     colorMode: {
       defaultMode: 'light',
       disableSwitch: false,
@@ -61,7 +64,8 @@ const config: Config = {
     footer: {
       style: 'dark',
       links: [],
-      copyright: `© ${new Date().getFullYear()} Trophē. Documentation built with Docusaurus.`,
+      copyright: `© ${new Date().getFullYear()} Iryna. Documentation built with Docusaurus.`,
+
     },
   },
 

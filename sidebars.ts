@@ -19,17 +19,13 @@ const sidebars: SidebarsConfig = {
       className: 'sidebar-title-item',
     },
     'vision',
-    'database',
-    'training',
-    'inference',
-    'decentralization',
-    'team',
+    'workflow',
     {
       type: 'html',
       value: '<span class="sidebar-title">Technical Documentation</span>',
       className: 'sidebar-title-item',
     },
-    'dataset',
+    'database',
   ],
 };
 
