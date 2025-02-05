@@ -1,0 +1,21 @@
+html[data-theme='dark'] {
+    --ifm-background-color: transparent;
+    --ifm-background-image: url('/img/background_dark.png');
+    background-color: var(--ifm-background-color) !important;
+}
+:root {
+    --ifm-background-color: transparent;
+}
+body {
+    background-image: var(--ifm-background-image);
+    background-attachment: fixed;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-position: 50%;
+    background-repeat: repeat;
+    background-size: cover;
+    font-family: Montserrat, sans-serif;
+    font-optical-sizing: auto;
+    letter-spacing: .025em;
+    min-height: 100vh;
+}

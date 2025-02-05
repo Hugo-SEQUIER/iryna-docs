@@ -1,0 +1,25 @@
+
+.footerContainer {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.submitPrLink {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: var(--ifm-color-primary);
+    color: white;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.submitPrLink:hover {
+    background-color: var(--ifm-color-primary-dark);
+}
+
+@media (max-width: 1190px) {
+    .hideOnMobile {
+        display: none !important;
+    }
+}
