@@ -20,6 +20,7 @@ const sidebars: SidebarsConfig = {
     },
     'vision',
     'workflow',
+    'irys',
     {
       type: 'html',
       value: '<span class="sidebar-title">Technical Documentation</span>',
