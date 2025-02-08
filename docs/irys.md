@@ -1,5 +1,5 @@
 ---
-sidebar_position: 3
+sidebar_position: 4
 title: "Irys"
 hidden: false
 lastUpdatedAt: "2025-02-05"
@@ -33,7 +33,3 @@ Irys enhances efficiency by unifying data storage and execution, reducing the co
 ## Use Cases
 
 Irys is ideal for building efficient and scalable decentralized applications (dApps) that require robust data storage and complex on-chain computations. Applications handling large volumes of data benefit from Irys's affordable storage solutions, while projects needing real-time data processing and dynamic interactions can leverage the programmable nature of IrysVM. This versatility makes Irys suitable for a wide range of applications, from data-intensive services to real-time interactive platforms.
-
-## Conclusion
-
-Irys stands out as a groundbreaking programmable datachain that bridges the gap between data storage and execution. Its innovative features not only make on-chain data management more efficient and cost-effective but also unlock new opportunities for developers to create advanced decentralized applications. By prioritizing decentralization, scalability, and developer-friendly tools, Irys is set to redefine the landscape of blockchain-based services, paving the way for a new era of on-chain innovation.

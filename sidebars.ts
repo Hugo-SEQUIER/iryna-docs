@@ -15,18 +15,22 @@ const sidebars: SidebarsConfig = {
     'intro',
     {
       type: 'html',
-      value: '<span class="sidebar-title">Project Overview</span>',
+      value: '<span class="sidebar-title">Key Concepts</span>',
       className: 'sidebar-title-item',
     },
     'vision',
     'workflow',
     'irys',
+    'swarm',
+    'agents',
+    'roadmap',
     {
       type: 'html',
       value: '<span class="sidebar-title">Technical Documentation</span>',
       className: 'sidebar-title-item',
     },
-    'database',
+
+    'quickstart',
   ],
 };
 
