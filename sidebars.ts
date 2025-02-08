@@ -24,6 +24,7 @@ const sidebars: SidebarsConfig = {
     'swarm',
     'agents',
     'roadmap',
+    'tokenomics',
     {
       type: 'html',
       value: '<span class="sidebar-title">Technical Documentation</span>',
