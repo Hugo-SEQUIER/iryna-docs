@@ -1,7 +1,3 @@
-html[data-theme='light'] {
-    --ifm-background-image: url('/img/background_light.png');
-}
-
 body {
     background-image: var(--ifm-background-image);
     background-attachment: fixed;

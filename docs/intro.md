@@ -3,7 +3,7 @@ slug: /
 sidebar_position: 1
 title: "Docs Home"
 hidden: false
-lastUpdatedAt: "2025-02-05"
+lastUpdatedAt: "2025-02-09"
 ---
 
 
@@ -25,15 +25,18 @@ Welcome to the Iryna Documentation! This comprehensive guide is designed to prov
 
 We recommend starting with the Key Concepts to gain a solid understanding of Iryna before diving into the technical details. Let's begin exploring Iryna and how it can enhance your workflow!
 
-
-
-<!-- <center>
+<center>
 <ThemedImage
     alt="Solution"
     sources={{
-        light: useBaseUrl('/img/5.png'),
-        dark: useBaseUrl('/img/6.png'),
+        light: useBaseUrl('/img/CurrentWorkflow.png'),
+        dark: useBaseUrl('/img/CurrentWorkflow.png'),
     }}
-    style={{width: 600}}
+    style={{width: 800}}
     />
-</center> -->
+</center>
+
+<p style={{ color: 'blue' }}>Blue: Server Init</p>
+<p style={{ color: 'gray' }}>Gray: API Checkpoint</p>
+<p>Other: Step</p>
+<p>Diamond: When we store step on Irys</p>

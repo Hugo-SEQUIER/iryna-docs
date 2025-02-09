@@ -1,6 +1,5 @@
 html[data-theme='dark'] {
     --ifm-background-color: #444444;
-    --ifm-background-image: url('/img/background_dark.png');
     background-color: var(--ifm-background-color) !important;
 }
 :root {

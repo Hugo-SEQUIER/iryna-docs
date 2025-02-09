@@ -2,7 +2,7 @@
 sidebar_position: 3
 title: "Plugins"
 hidden: false
-lastUpdatedAt: "2025-02-05"
+lastUpdatedAt: "2025-02-09"
 ---
 
 # Creating Plugins

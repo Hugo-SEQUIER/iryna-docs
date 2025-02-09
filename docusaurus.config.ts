@@ -8,7 +8,7 @@ const config: Config = {
 
 
   // Set the production url of your site here
-  url: 'https://docs.iryna.ai',
+  url: 'https://yellow-tapir-490417.hostingersite.com/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -50,8 +50,10 @@ const config: Config = {
       logo: {
         alt: 'Iryna Logo',
         src: 'img/logo.png',
-        srcDark: 'img/logo_dark.png', // Added logo for dark mode
-        href: 'https://iryna.ai',
+        srcDark: 'img/logo.png', // Added logo for dark mode
+        href: 'https://yellow-tapir-490417.hostingersite.com/',
+
+
       },
     },
 

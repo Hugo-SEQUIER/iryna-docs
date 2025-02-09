@@ -2,7 +2,7 @@
 sidebar_position: 5
 title: "Swarm"
 hidden: false
-lastUpdatedAt: "2025-02-05"
+lastUpdatedAt: "2025-02-09"
 ---
 
 import ThemedImage from '@theme/ThemedImage';
@@ -17,11 +17,12 @@ Swarm intelligence in the Iryna Framework is a decentralized approach to task ma
 <ThemedImage
     alt="Solution"
     sources={{
-        light: useBaseUrl('/img/swarm.png'),
-        dark: useBaseUrl('/img/swarm.png'),
+        light: useBaseUrl('/img/Swarm.png'),
+        dark: useBaseUrl('/img/Swarm.png'),
     }}
     style={{width: 600}}
     />
+
 </center>
 
 ## User Interface
