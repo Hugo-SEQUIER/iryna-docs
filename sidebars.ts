@@ -30,9 +30,14 @@ const sidebars: SidebarsConfig = {
       value: '<span class="sidebar-title">Technical Documentation</span>',
       className: 'sidebar-title-item',
     },
-
     'quickstart',
+    'aiWrapper',
+    'character',
+    'actions',
+    'plugins',
   ],
 };
+
+
 
 export default sidebars;

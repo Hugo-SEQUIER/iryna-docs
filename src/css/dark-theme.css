@@ -1,5 +1,5 @@
 html[data-theme='dark'] {
-    --ifm-background-color: transparent;
+    --ifm-background-color: #444444;
     --ifm-background-image: url('/img/background_dark.png');
     background-color: var(--ifm-background-color) !important;
 }
@@ -7,7 +7,6 @@ html[data-theme='dark'] {
     --ifm-background-color: transparent;
 }
 body {
-    background-image: var(--ifm-background-image);
     background-attachment: fixed;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;

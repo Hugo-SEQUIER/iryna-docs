@@ -36,7 +36,6 @@ const config: Config = {
         theme: {
           customCss: [
             './src/css/custom.css',
-            './src/css/light-theme.css',
             './src/css/dark-theme.css',
           ],
         },
@@ -57,8 +56,8 @@ const config: Config = {
     },
 
     colorMode: {
-      defaultMode: 'light',
-      disableSwitch: false,
+      defaultMode: 'dark',
+      disableSwitch: true,
       respectPrefersColorScheme: true,
     },
     footer: {
