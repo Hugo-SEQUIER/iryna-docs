@@ -1,8 +1,8 @@
 ---
-sidebar_position: 3
+sidebar_position: 8
 title: "Plugins"
 hidden: false
-lastUpdatedAt: "2025-02-09"
+lastUpdatedAt: "2025-02-17"
 ---
 
 # Creating Plugins
@@ -111,40 +111,80 @@ class DependencyContainer {
     // ... existing code ...
 }
 ```
+5. **Register Action in actions.json**
 
-5. **Load the Action**
+Add an entry to `actions/actions.json`:
+
+```json
+{
+  "actions": [
+    // ... existing actions ...
+        {
+            "name": "TranslateText",
+            "description": "Translates the given text to the target language.",
+            "parameters": {
+                "text": {
+                    "type": "string",
+                    "description": "The text to translate."
+                },
+                "targetLanguage": {
+                    "type": "string",
+                    "description": "The language to translate the text into."
+                }
+            }
+        }
+    ]
+}
+```
+
+
+6. **Load the Action**
 
 The `ActionLoader` automatically loads actions from the `plugins` directory. Ensure your plugin files export the action classes correctly.
 
-6. **Update `defaultCharacter.json`**
+7. **Update character configuration**
 
-Add the new workflow and action to your agent's configuration:
+You can add the new workflow and action to your agent's configuration either manually by editing the JSON file, or by using the Character Generator CLI:
+
+```bash
+npm run character
+```
+
+Select "Modify existing character" and choose the "Edit Workflows" option. From there you can:
+- Add new workflows
+- Modify existing workflows
+- Add new actions to workflows
+- Remove actions from workflows
+
+The CLI will guide you through configuring the workflow and action parameters interactively.
+
+Alternatively, you can manually add to your character's configuration:
 
 ```json
 {
     // ... existing configuration ...
     "workflows": [
     // ... existing workflows ...
-    {
-        "name": "TranslateWorkflow",
-        "description": "Translates user-provided text to a specified language.",
-        "actions": [
         {
-            "name": "TranslateText",
-            "description": "Translates the given text to the target language.",
-            "parameters": {
-            "text": {
-                "type": "string",
-                "description": "The text to translate."
-            },
-            "targetLanguage": {
-                "type": "string",
-                "description": "The language to translate the text into."
-            }
-            }
+            "name": "TranslateWorkflow",
+            "description": "Translates user-provided text to a specified language.",
+            "actions": [
+                {
+                    "name": "TranslateText",
+                    "description": "Translates the given text to the target language.",
+                    "parameters": {
+                    "text": {
+                        "type": "string",
+                        "description": "The text to translate."
+                    },
+                    "targetLanguage": {
+                        "type": "string",
+                        "description": "The language to translate the text into."
+                    }
+                    }
+                }
+            ]
         }
-        ]
-    }
     ]
 }
 ```

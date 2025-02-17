@@ -2,7 +2,7 @@
 sidebar_position: 7
 title: "Roadmap"
 hidden: false
-lastUpdatedAt: "2025-02-09"
+lastUpdatedAt: "2025-02-17"
 ---
 
 # Roadmap
@@ -16,7 +16,7 @@ The Minimum Viable Product (MVP) of the Iryna Framework is likely the initial ve
 
 Comprehensive documentation is essential for users to understand and effectively use the Iryna Framework
 
-- [ ] Swarm MVP
+- [X] Swarm MVP
 
 The Swarm MVP involves the initial implementation of swarm intelligence within the framework. This feature allows multiple agents to collaborate and share knowledge, inspired by natural systems' collective behavior. The concept is detailed in <a href="/docs/swarm">Swarm section</a>, emphasizing decentralized task management and execution.
 

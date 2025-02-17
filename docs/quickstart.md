@@ -45,16 +45,24 @@ Before you begin, ensure you have the following installed on your machine:
 
    Create a `.env` file in the root directory and define the necessary API keys and configurations:
 
-   ```env
-   OPENAI_API_KEY=your_openai_api_key
-   EVM_WALLET_PRIVATE_KEY=your_wallet_private_key
-   PORT=3000
-   ```
+    ```env
+        PORT=3000
+        API_URL=http://localhost:3000
+
+        EVM_WALLET_PRIVATE_KEY=
+        EVM_WALLET_PUBLIC_KEY=
+
+        OPENAI_API_KEY=
+        IONET_API_KEY=
+        HYPERBOLIC_API_KEY=
+        OLLAMA_HOST=http://127.0.0.1:11434
+
+        SWARM_ORCHESTRATOR_URL=http://127.0.0.1:3000 # As to be changed in the future
+    ```
 
 2. **Start the Server**
 
    ```bash
-   npm run build
    npm run start
    ```
 

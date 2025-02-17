@@ -3,14 +3,15 @@
   --ifm-color-primary: #444444;
   --ifm-heading-font-family: "Montserrat", sans-serif !important;
   --ifm-col-width : 100%;
+  --ifm-navbar-height: 0px !important;
 }
 
 html[data-navbar='false'] .navbar {
   display: none;
 }
-/* html .navbar {
+html .navbar {
   display: none;
-} */
+} 
 html {
   color: var(--ifm-color-primary);
 }

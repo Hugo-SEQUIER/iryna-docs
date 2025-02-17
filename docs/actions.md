@@ -1,8 +1,8 @@
 ---
-sidebar_position: 4
+sidebar_position: 5
 title: "Actions"
 hidden: false
-lastUpdatedAt: "2025-02-09"
+lastUpdatedAt: "2025-02-17"
 ---
 
 # Actions
@@ -32,15 +32,32 @@ Actions are the building blocks of workflows. Each action represents a specific 
 
 **Creating Actions:**
 
-1. **Define the Action in `defaultCharacter.json`:**
+1. **Define the Action in `actions/actions.json`:**
+
+   All actions must be defined in the `actions/actions.json` file using the following structure:
+
+   ```json
+   {
+     "name": "SwarmGetData",
+     "description": "Gets data from an agent on the swarm network.",
+     "parameters": {
+       "agentAuthority": {
+         "type": "string",
+         "description": "The authority of the agent to get data from. The public key used to store agent data on Irys"
+       }
+     }
+   }
+   ```
+
+2. **Define the Action in `defaultCharacter.json`:**
 
    Specify the action's name, description, and required parameters within a workflow.
 
-2. **Implement the Action Class:**
+3. **Implement the Action Class:**
 
    Create a class that implements the `IAction` interface, handling validation and execution logic.
 
-3. **Register the Action:**
+4. **Register the Action:**
 
    Ensure the action is properly loaded by the `ActionLoader` through correct export and placement in the plugins directory.
 

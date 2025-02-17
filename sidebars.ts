@@ -32,8 +32,11 @@ const sidebars: SidebarsConfig = {
     },
     'quickstart',
     'aiWrapper',
+    'cli',
     'character',
     'actions',
+    'swarm2',
+    'orchestrator',
     'plugins',
   ],
 };

@@ -91,3 +91,11 @@ By following this pattern, the AiWrapper class ensures that adding support for n
 - **Consistency:** Ensures that all AI interactions adhere to a unified interface, promoting reliable and predictable behavior.
 
 By abstracting the complexities of various AI providers into a single, cohesive interface, the AiWrapper class empowers developers to build intelligent agents that are both versatile and resilient.
+
+## Current Implementations
+
+The Iryna Framework currently supports multiple AI providers through the OpenAI client implementation. This includes IONET, Ollama, and Hyperbolic API URL integrations, which can be configured to use alternative AI models. However, it's important to note that function calling capabilities are currently only supported through the official OpenAI API. Additionally, the framework relies on OpenAI's embedding models for all embedding operations, regardless of the chosen provider for text generation. Therefore, users must provide an OpenAI API key for embedding functionality.
+
+For use cases focused solely on text generation (such as social agents or simple conversational bots), users have the flexibility to utilize any of the supported providers. This allows for cost-effective implementations while maintaining the core functionality needed for basic agent interactions.
+
+
