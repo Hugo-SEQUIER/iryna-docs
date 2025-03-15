@@ -88,6 +88,36 @@ Before you begin, ensure you have the following installed on your machine:
    }
    ```
 
+## Using the Client
+
+The Iryna Framework includes a visual client interface that makes it easy to design and manage your agent workflows without writing code.
+
+1. **Start the Client**
+
+   ```bash
+   npm run start-client
+   ```
+
+   This will launch the client interface in your default web browser.
+
+2. **Purpose of the Client**
+
+   The client provides a visual workflow builder that allows you to:
+   - Design agent behaviors through a drag-and-drop interface
+   - Configure AI models from multiple providers (OpenAI, Hyperbolic, Ionet, Ollama)
+   - Create and connect action nodes to define what your agent can do
+   - Save, load, and share your workflows
+   - Export workflows for deployment
+
+3. **Creating Your First Workflow**
+
+   - Drag nodes from the sidebar onto the canvas
+   - Connect nodes by dragging from one handle to another
+   - Configure each node by clicking on it and adjusting parameters
+   - Save your workflow using the save button in the header
+
+For more detailed information about the client, see the [Client documentation](./client.md).
+
 ## API Overview
 
 The agent exposes a RESTful API for interacting with it. Here's a summary of the available endpoints:

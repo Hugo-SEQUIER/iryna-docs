@@ -38,6 +38,7 @@ const sidebars: SidebarsConfig = {
     'swarm2',
     'orchestrator',
     'plugins',
+    'client',
   ],
 };
 
